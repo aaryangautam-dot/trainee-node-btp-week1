@@ -1,0 +1,6 @@
+applications:
+- name: cf-hello-world
+  memory: 128M
+  instances: 1
+  buildpacks:
+   - nodejs_buildpack
