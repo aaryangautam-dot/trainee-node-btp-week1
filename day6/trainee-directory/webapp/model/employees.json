@@ -1,0 +1,24 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "John",
+            "department": "Engineering",
+            "role": "trainee"
+        },
+
+         {
+            "id": 2,
+            "name": "doe",
+            "department": "testing",
+            "role": "trainee"
+        },
+
+         {
+            "id": 3,
+            "name": "jane",
+            "department": "Marketing",
+            "role": "trainee"
+        }
+    ]
+}

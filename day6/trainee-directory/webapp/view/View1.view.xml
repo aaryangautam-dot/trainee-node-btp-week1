@@ -1,0 +1,58 @@
+<mvc:View
+    controllerName="trainee.directory.traineedirectory.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page
+        id="traineeDirectoryPage"
+        title="Trainee Directory">
+
+        <content>
+
+            <Table
+                id="employeeTable"
+                headerText="Employees"
+                items="{employees>/employees}">
+
+                <columns>
+
+                    <Column>
+                        <Text text="ID" />
+                    </Column>
+
+                    <Column>
+                        <Text text="Name" />
+                    </Column>
+
+                    <Column>
+                        <Text text="Department" />
+                    </Column>
+
+                    <Column>
+                        <Text text="Role" />
+                    </Column>
+
+                </columns>
+
+                <items>
+
+                    <ColumnListItem>
+
+                        <cells>
+                            <Text text="{employees>id}" />
+                            <Text text="{employees>name}" />
+                            <Text text="{employees>department}" />
+                            <Text text="{employees>role}" />
+                        </cells>
+
+                    </ColumnListItem>
+
+                </items>
+
+            </Table>
+
+        </content>
+
+    </Page>
+
+</mvc:View>
